@@ -17,7 +17,7 @@ public class Publish {
 		Channel channel = connection.createChannel();
 		channel.exchangeDeclare(EXCHANGE_NAME, ExchangeTypes.FANOUT);
 		long start = System.currentTimeMillis();
-		for(int i = 0; i< 10000; i++){
+		for(int i = 0; i< 20000; i++){
 			String message = "message " + i;
 			channel.basicPublish(EXCHANGE_NAME, "", null, message.getBytes());
 //			System.out.println("Sent " + message);
