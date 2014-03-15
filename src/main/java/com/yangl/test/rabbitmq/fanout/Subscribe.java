@@ -1,4 +1,4 @@
-package com.yangl.test.rabbitmq;
+package com.yangl.test.rabbitmq.fanout;
 
 import org.springframework.amqp.core.ExchangeTypes;
 

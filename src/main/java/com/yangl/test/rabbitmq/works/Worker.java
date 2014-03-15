@@ -1,4 +1,4 @@
-package com.yangl.test.rabbitmq;
+package com.yangl.test.rabbitmq.works;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
